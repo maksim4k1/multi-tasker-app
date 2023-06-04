@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0; border: 0;}
+
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html{scroll-behavior: smooth;}
+input,button,textarea{font-family: inherit; font-size: inherit; color: inherit; background: none;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer; background: none;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:hover, a:visited{text-decoration: none;}
+ul, menu{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+
+body{
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Стили контейнеров */
+.container{width: 100%; max-width: 414px; margin: 0 auto; padding: 0 24px 100px;}
+
+/* Переменные */
+:root{
+  --color-white: #FFFFFF;
+  --color-acent: #007AFF;
+  --color-black: #000000;
+  --color-gray: #979592;
+  --color-cold-gray: #9A99A2;
+  --color-light-gray: #CDCDCD;
+  --color-logo: #222130;
+  --color-secondary: #D8D8D8;
+  --color-label: #A9A9A9;
+  --color-light-acent: #E8F3FF;
+  --color-light-red: #FFE2E2;
+  --color-choose-background: #F8F8F8;
+  --color-dark-red: #D90000;
+  --color-text: #3D3D3D;
+  --color-press: #0A082C;
+  --color-hover: rgba(0, 122, 255, 0.1);
+  --color-cards-background: #F5F5F5;
+  --color-cards-secondary-text: #606060;
+  --color-period-red: #FF5050;
+  --color-period-orange: #FFA114;
+  --color-period-yellow: #FFC700;
+  --color-period-green: #66CC00;
+  --color-bg-modal-window: rgba(0, 0, 0, 0.3);
+
+  --shadow-card: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  --shadow-card-active: 0px 2px 7px rgba(9, 6, 57, 0.07);
+  --shadow-card-hover: 0px 9px 20px rgba(5, 0, 88, 0.08);
+  --shadow-hover: 0px 9px 15px rgba(5, 0, 88, 0.2);
+  --shadow-active: 0px 7px 12px rgba(4, 3, 31, 0.1);
+  --shadow-press: inset 4px -4px 9px rgba(0, 0, 0, 0.25), inset 4px 4px 10px rgba(0, 0, 0, 0.25);
+  --shadow-modal-window: 0px 3px 15px rgba(4, 3, 31, 0.15);
+}
