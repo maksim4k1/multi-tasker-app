@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/multi-tasker-app/static/css/main.45ec406e.css",
+    "main.js": "/multi-tasker-app/static/js/main.690800e1.js",
+    "static/media/start-bg.png": "/multi-tasker-app/static/media/start-bg.82aa1401d18bfe9aac99.png",
+    "index.html": "/multi-tasker-app/index.html",
+    "main.45ec406e.css.map": "/multi-tasker-app/static/css/main.45ec406e.css.map",
+    "main.690800e1.js.map": "/multi-tasker-app/static/js/main.690800e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ec406e.css",
+    "static/js/main.690800e1.js"
+  ]
+}
